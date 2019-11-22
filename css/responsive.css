@@ -1,0 +1,147 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 360px) {
+    .banner-contant h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand img {
+        width: 200px;
+    }
+
+    .carousel-inner {
+        height: auto !important;
+    }
+
+    .carousel-item-contant a {
+        margin-bottom: 15px;
+    }
+
+    .banner-contant {
+        position: relative !important;
+        ;
+        top: auto;
+        transform: translate(0, 0);
+        padding-top: 100px;
+    }
+
+    .carousel-item-contant-text {
+
+        position: relative;
+        top: auto;
+        transform: translate(0, 0);
+        padding-top: 100px;
+    }
+
+    .carousel-item {
+        height: auto;
+    }
+
+    .banner-contant h1 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .page-banner-relative .container h2{
+        
+    font-size: 40px;
+    }
+    .reporting-item{display: inherit;text-align: center;}
+    .reporting-item div{width: auto;padding: 0;margin: 0;margin-bottom: 15px;}
+    .page-banner h2{
+        font-size: 36px !important;
+        line-height: 1.3;
+    }
+    .login-sec{
+       padding: 50px 30px;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+       margin: 50px auto;
+    }
+}
+
+@media (max-width: 575.98px) {
+        .sample-flow .flow-icon{
+        text-align: center;
+    }
+    .sample-flow p{
+        margin: 0;
+        text-align: center;
+    }
+    .policy-management-sec img{
+        width: 75%;
+        padding: 50px;
+    }
+    .price-items{
+        margin: 0;
+    }
+    .pertner-sec p{
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .page-banner p {
+        margin: 0;
+    }
+
+    .banner-contant-img img {
+        display: none;
+    }
+    .polices-sec h4{
+        margin-bottom: 25px
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .pertner-sec-contant{
+        position: relative;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1230px) {
+    .inner-page-nav ul {}
+
+    .inner-page-nav ul li {}
+
+    .navbar-nav li:last-child::before {
+        content: none;
+    }
+
+    .inner-page-nav ul li a {
+        margin-left: 0 !important;
+        margin-right: 0;
+        font-size: 14px !important;
+    }
+
+    .inner-page-nav ul li a i {
+        font-size: 15px;
+
+        margin-right: 5px;
+    }
+
+    .inner-page-nav ul li .btn {
+        padding: 10px 15px;
+    }
+
+    header nav {
+        padding: 15px !important;
+    }
+
+    .navbar-brand img {
+
+        width: 200px;
+    }
+}
+
+/* Extra large devices (large desktops) */
+/* No media query since the extra-large breakpoint has no upper bound on its width */
